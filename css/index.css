@@ -1,0 +1,102 @@
+/* Applying a full-screen background image and centering content within the body element. */
+body {
+    background-image: url("../assets/gender1.png");
+    background-color: #cccccc;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styling the form with a semi-transparent background and columnar layout for child elements. */
+.form {
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 25px;
+    border-radius: 25px;
+    min-width: 35%;
+    min-height: 40%;
+}
+
+/* Ensuring the bottom form's child divs are displayed in a row. */
+.bottom-form {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Allocating equal width to sub-forms within the form. */
+.sub-form {
+    padding: 0 10px;
+    width: 50%;
+}
+
+/* Vertical layout for elements in the right sub-form. */
+.right-sub-form,
+.left-sub-form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+/* Horizontal layout for elements within the input div. */
+.input {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+/* Defining the size and margin for labels in the input div. */
+.input label {
+    width: 20%;
+    margin: 2px;
+}
+
+/* Setting size and margin for input boxes within the input div. */
+.input input {
+    width: 60%;
+    height: 60%;
+    margin: 2px;
+}
+
+/* Padding for the prediction div. */
+#prediction-div {
+    padding: 5px;
+}
+
+/* Styling the saved answer div with a dotted border. */
+#saved-answer-div {
+    border: dotted medium;
+    padding: 5px;
+}
+
+/* Adjusting the margin for the h2 tag inside the saved answer div. */
+#saved-answer-div h2 {
+    margin: 0 0 20px 0;
+}
+
+/* Global button styling. */
+button {
+    background-color: #1d5067;
+    color: #ffffff;
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 3px 10px;
+    width: 70px;
+    margin: 5px 0;
+}
+
+/* Error message styling. */
+.error {
+    color: darkred;
+    font-weight: bold;
+}
+
+/* Margin for the radio box div. */
+#radio-box-div {
+    margin: 10px 0 25px 0;
+}
