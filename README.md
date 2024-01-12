@@ -1,4 +1,4 @@
-# Name to Gender Converter - Internet Engineering Midterm Project
+## Name to Gender Converter - Internet Engineering Midterm Project
 https://sabasahban.github.io/mr-or-ms/
 ### Overview
 The Name to Gender Converter is a simple web application designed to predict the gender associated with a given name. Utilizing the Genderize.io API, this app offers a user-friendly interface where users can input a name and receive gender predictions along with a probability score. It also provides functionalities to save and clear predictions locally.
